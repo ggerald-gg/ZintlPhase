@@ -1,0 +1,24 @@
+sedementary:
+-conglomorate
+-limestones
+-mudstone
+-siltsone
+
+plutonic:
+-dolerite
+-gabbro
+-granodiorite
+-granites
+-diorite
+
+volcanic:
+-dacite
+-pillow basalt
+-rhyolites
+-andesite
+
+metamorphic:
+-slates
+-phyllite
+-quartzite
+-schist
