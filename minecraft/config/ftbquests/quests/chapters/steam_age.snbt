@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: ""
+	icon: "gtceu:bronze_ingot"
+	id: "787708B9C16BA688"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "3EE2F21A4B9A553A"
+		tasks: [{
+			id: "7BF4E1C9376EACEB"
+			item: "gtceu:bronze_ingot"
+			type: "item"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "Bronze Age"
+}

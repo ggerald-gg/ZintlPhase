@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "late_game"
+	group: ""
+	icon: "gtceu:naquadah_ingot"
+	id: "5FCFACD0B81215BC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "02F15B2425EF367D"
+		tasks: [{
+			id: "2A6E9A6443A5B879"
+			item: "gtceu:assembly_line"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Late Game"
+}
