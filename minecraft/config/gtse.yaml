@@ -1,5 +1,0 @@
-server:
-  # Maximum parallel count of industrial steam machine
-  # Default: 64
-  industrialSteamMachineMaxParallels: 64
-
