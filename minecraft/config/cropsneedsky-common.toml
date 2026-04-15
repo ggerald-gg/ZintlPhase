@@ -1,0 +1,20 @@
+
+#CropsNeedSky Configuration
+#This file controls which features are enabled in the mod.
+#All plants affected by this mod will immediately die and turn into dead bushes when they don't have direct sky access.
+[features]
+	#When enabled, growing crops will die and turn into dead bushes if they don't have direct sky access
+	crops = true
+	#When enabled, growing bamboo will die and turn into dead bushes if they don't have direct sky access
+	bamboo = true
+	#When enabled, growing sugar cane will die and turn into dead bushes if they don't have direct sky access
+	sugar_cane = true
+	#When enabled, growing cacti will die and turn into dead bushes if they don't have direct sky access
+	cactus = true
+	#When enabled, growing sweet berry bushes will die and turn into dead bushes if they don't have direct sky access
+	sweet_berry = true
+
+[bonemeal]
+	#When enabled, bonemeal cannot be used on plants that don't have direct sky access
+	enabled = true
+

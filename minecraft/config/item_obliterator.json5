@@ -1,0 +1,176 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "ad_astra:iron_plate",
+    "ad_astra:iron_rod",
+    "ad_astra:oxygen_bucket",
+    "ad_astra:hydrogen_bucket",
+    "ad_astra:oil_bucket",
+    "ad_astra:fuel_bucket",
+    "ad_astra:cryo_fuel_bucket",
+    "ad_astra:steel_block",
+    "ad_astra:steel_ingot",
+    "ad_astra:steel_nugget",
+    "ad_astra:steel_plate",
+    "ad_astra:steel_rod",
+    "ad_astra:wrench",
+    "create:brass_block",
+    "create:brass_ingot",
+    "create:brass_nugget",
+    "create:brass_sheet",
+    "create:copper_nugget",
+    "create:copper_sheet",
+    "create:dough",
+    "create:iron_sheet",
+    "create:powdered_obsidian",
+    "create:sturdy_sheet",
+    "create:wrench",
+    "create:zinc_block",
+    "create:zinc_ingot",
+    "create:zinc_nugget",
+    "!create:.*_boots",
+    "!create:.*_chestplate",
+    "!create:.*_helmet",
+    "!create:.*_leggings",
+    "!create:crushed_raw_*.",
+    "!delightful:.*_knife",
+    "!farmersdelight:.*_knife",
+    "gtceu:dough",
+    "!gtceu:.*_boots",
+    "!gtceu:.*_chestplate",
+    "!gtceu:.*_helmet",
+    "!gtceu:.*_leggings",
+    "minecraft:anvil",
+    "minecraft:chainmail_boots",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_helmet",
+    "minecraft:chainmail_leggings",
+    "minecraft:chipped_anvil",
+    "minecraft:damaged_anvil",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_boots",
+    "minecraft:diamond_chestplate",
+    "minecraft:diamond_helmet",
+    "minecraft:diamond_hoe",
+    "minecraft:diamond_leggings",
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_shovel",
+    "minecraft:diamond_sword",
+    "minecraft:gold_axe",
+    "minecraft:gold_boots",
+    "minecraft:gold_chestplate",
+    "minecraft:gold_helmet",
+    "minecraft:gold_hoe",
+    "minecraft:gold_leggings",
+    "minecraft:gold_pickaxe",
+    "minecraft:gold_shovel",
+    "minecraft:gold_sword",
+    "minecraft:iron_axe",
+    "minecraft:iron_boots",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_helmet",
+    "minecraft:iron_hoe",
+    "minecraft:iron_leggings",
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_shovel",
+    "minecraft:iron_sword",
+    "minecraft:netherite_axe",
+    "minecraft:netherite_boots",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_hoe",
+    "minecraft:netherite_leggings",
+    "minecraft:netherite_pickaxe",
+    "minecraft:netherite_shovel",
+    "minecraft:netherite_sword",
+    "minecraft:turtle_helmet",
+    "minecraft:stone_axe",
+    "minecraft:stone_hoe",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_shovel",
+    "minecraft:stone_sword",
+    "minecraft:wooden_axe",
+    "minecraft:wooden_hoe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:wooden_shovel",
+    "minecraft:wooden_sword",
+    "overgeared:copper_nugget",
+    "overgeared:copper_plate",
+    "overgeared:diamond_upgrade_smithing_template",
+    "overgeared:iron_plate",
+    "overgeared:steel_block",
+    "overgeared:steel_ingot",
+    "overgeared:steel_nugget",
+    "overgeared:steel_plate",
+    "!overgeared:.*_axe",
+    "!overgeared:.*_boots",
+    "!overgeared:.*_chestplate",
+    "!overgeared:.*_head",
+    "!overgeared:.*_helmet",
+    "!overgeared:.*_hoe",
+    "!overgeared:.*_leggings",
+    "!overgeared:.*_pickaxe",
+    "!overgeared:.*_shovel",
+    "!overgeared:.*_sword_blade",
+    "!overgeared:.*_sword",
+    "!unearthed:.*_ore",
+    "vintageimprovements:copper_sulfate",
+    "vintageimprovements:sulfuric_acid_bucket",
+    "vintageimprovements:vanadium_block",
+    "vintageimprovements:vanadium_ingot",
+    "vintageimprovements:vanadium_nugget",
+    "!vintageimprovements:.*_rod",
+    "!vintageimprovements:.*_sheet",
+    "!vintageimprovements:.*_spring",
+    "!vintageimprovements:.*_wire",
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "adadadd:adasdas"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

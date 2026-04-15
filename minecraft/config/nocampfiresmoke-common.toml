@@ -1,0 +1,7 @@
+
+[General]
+	#Enables or disables the 'No Campfire Smoke' mod functionality.
+	enableMod = true
+	#Removes smoke particles from other burning sources like regular fire, lava, and furnaces.
+	removeSmokeFromAllBurning = false
+
