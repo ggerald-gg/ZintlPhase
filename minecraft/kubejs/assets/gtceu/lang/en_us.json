@@ -1,0 +1,11 @@
+{
+	"block.gtceu.primitive_blast_furnace": "Bloomery",
+	"block.gtceu.crucible_furnace": "Crucible Furnace",
+	"block.gtceu.blast_furnace": "Blast Furnace",
+
+	"gtceu.primitive_blast_furnace": "Bloomery",
+	"gtceu.crucible_smelting": "Crucible Smelting",
+	"gtceu.blast_furnace": "Blast Furnace",
+
+    "material.gtceu.cast_iron": "Cast Iron"
+}
