@@ -1,0 +1,9 @@
+{
+  "com.blamejared.controlling.client.NewKeyBindsScreen": false,
+  "accessibility_options_screen": true,
+  "language_select_screen": false,
+  "sound_options_screen": true,
+  "options_screen": false,
+  "chat_options_screen": true,
+  "stats_screen": false
+}
